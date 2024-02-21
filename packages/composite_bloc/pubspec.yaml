@@ -1,0 +1,21 @@
+name: composite_bloc
+description: Package enables composite design on flutter_bloc
+publish_to: none
+version: 0.0.1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  analyzer_rules: 1.0.2
+  flutter:
+    sdk: flutter
+  composite:
+    path: ../composite
+  task:
+    path: ../task
+  flutter_bloc: 7.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

@@ -1,0 +1,18 @@
+name: composite
+description: Package allows copmponent based design
+publish_to: none
+version: 0.0.1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  analyzer_rules: 1.0.2
+  flutter:
+    sdk: flutter
+  task:
+    path: ../task
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

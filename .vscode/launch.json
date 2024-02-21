@@ -1,0 +1,86 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "composite_bloc_sample_app",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "composite_bloc_sample_app (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "composite_bloc_sample_app (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "composite",
+      "cwd": "packages/composite",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "composite (profile mode)",
+      "cwd": "packages/composite",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "composite (release mode)",
+      "cwd": "packages/composite",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "composite_bloc",
+      "cwd": "packages/composite_bloc",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "composite_bloc (profile mode)",
+      "cwd": "packages/composite_bloc",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "composite_bloc (release mode)",
+      "cwd": "packages/composite_bloc",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "task",
+      "cwd": "packages/task",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "task (profile mode)",
+      "cwd": "packages/task",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "task (release mode)",
+      "cwd": "packages/task",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
