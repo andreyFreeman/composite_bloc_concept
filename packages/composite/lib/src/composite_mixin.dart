@@ -1,4 +1,3 @@
-import 'component_behaviour.dart';
 
 abstract class HostedComponent {
   final List<Type> requiredComponents = [];
