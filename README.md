@@ -1,16 +1,17 @@
-# composite_bloc_sample_app
+# Composite Bloc Concept
 
-A new Flutter project.
+Sample app illustrates concept of composite bloc. Components attached to a BLoC and implement business logic in a clean and abstract way.
+Take on solving "too large BLoC" problem by breaking down particular tasks to components.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- components may be added/removed to a CompositeBloc instance (extends Bloc).
+- components may access other components attached to the same host
+- components may require other compeennts to be added
+- components may access host (bloc)
+- components may subscribe to event using 'on<Event>' and update bloc state using 'emit'
+- task library provides capability to incapsulate units of job to be executed and abolity to chain those units together in various ways
 
-A few resources to get you started if this is your first Flutter project:
+## Sample App
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Sample app implements increment/decrement behaviour without having to subclass the BLoC but adding a few (reusable) components to it instead.
